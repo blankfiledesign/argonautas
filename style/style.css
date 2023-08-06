@@ -15,6 +15,7 @@ header{
     background-color: rgba(39, 39, 39, 0.979);
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 h2{
@@ -75,6 +76,7 @@ h2{
 .videos img {
     width: 100%;
     transition: 0.5s;
+    margin-bottom: 15px;
     
     
 }
@@ -100,6 +102,29 @@ h2{
     align-items: center;
     align-content: center;
     
+}
+
+.redes{
+    justify-content:center;
+    padding-bottom: 150px;
+}
+
+.redes a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0px 25px 0px 25px;
+}
+
+.redes i{
+    padding-top: 50px;
+}
+
+.redes .text-center{
+    padding: 15px 50px 15px 50px;
+}
+.seguinos h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 /*footer*/ 
 
