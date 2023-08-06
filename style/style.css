@@ -42,7 +42,7 @@ h2{
     url(/img/baner-salinas.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:bottom;
+    background-position:center;
     height: 100vh;
     justify-content: center;
     align-items:end;
