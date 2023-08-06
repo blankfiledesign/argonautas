@@ -1,0 +1,1 @@
+agregar lazy loading y js modal a la galeria, los videos estan en la lista de javascript

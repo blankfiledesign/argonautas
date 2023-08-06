@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    color: blanchedalmond;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+
+}
+header{
+    background-color: rgba(39, 39, 39, 0.836);
+    position: fixed;
+    width: 100%;
+}
+
+h2{
+    font-weight: 800;
+    font-style: italic;
+    font-size:3em;
+}
+
+.logo{
+    width: 8em;
+}
+
+.navbar p{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.collapse{
+    justify-content: right;
+}
+
+
+#banner{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.575)),
+    url(/img/banner-live.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#text img{
+    min-width:100%;
+}
+
+
+@media (max-width: 768px){
+    #banner{
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    .v-yt{
+        max-height: 50%;
+    }
+}
+
+.v-yt{
+    max-width: 100%;   
+}
+
+.estrenos{
+    text-align: center;
+    
+    align-items: center;
+    align-content: center;
+    
+}
+
+.spoty .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.videos img {
+    width: 100%;
+    padding:10px 15px 10px 5px;
+    transition: 0.5s;
+    
+    
+}
+.videos a{
+    text-decoration: none;
+}
+.videos .col-md-3{
+    
+    margin: 0 !important;
+}
+
+.videos img:hover{
+    transform: scale(0.9);
+}
