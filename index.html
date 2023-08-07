@@ -15,8 +15,12 @@
 
     <!--bootstrap-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+
+    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
 
     <link rel="stylesheet" href="style/style.css">
@@ -26,16 +30,16 @@
     <header>
         <nav class="navbar navbar-expand-lg px-3" data-bs-theme="dark" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"> <img class="logo" src="/img/Argonauta 2023.png" alt="argonautas"></a>
+              <a class="navbar-brand" href="#"> <img class="logo" src="/img/logo nav.png" alt="argonautas"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" href="#">Home</a>
-                  <a class="nav-link active" href="#music">Musica</a>
-                  <a class="nav-link active" href="#videos">Videos</a>
-                  <a class="nav-link active" href="#">Contacto</a>
+                  <a class="nav-link " href="#">Home</a>
+                  <a class="nav-link " href="#music">Musica</a>
+                  <a class="nav-link " href="#videos">Videos</a>
+                  <a class="nav-link " href="#">Contacto</a>
                 </div>
               </div>
             </div>
@@ -49,7 +53,7 @@
     <section class="container-fluid">
         <div class="row" id="banner">
             <div class="col-lg-9" id="text">
-                <img class="img-fluid" src="img/Argonauta 2023.png" alt="">
+                <img class="img-fluid" src="img/Argonauta 2023.png" alt="logo argonautas">
             </div>
         </div>
     </section>
@@ -57,8 +61,8 @@
 
     <section class="">
         <div class="container py-5 ">
-            <div class="row about">
-                <h2 class="text-center py-3">BIO</h2>
+            <div class="row about text-center">
+                <h2 class=" py-3">BIO</h2>
                 <div class="col-md-9">
                     <p>
                         ..."Argonautas es una banda de rock formada en el año 2021.
@@ -73,14 +77,14 @@
     </section>
     <section class="spoty" id="music">
         <div class="container">
-            <div class="row">
-                <h2 class="text-center py-5">MUSICA</h2>
+            <div class="row text-center">
+                <h2 class=" py-5">MUSICA</h2>
                 <div class="col-md-6 py-4">
                     <img class="img-fluid" src="img/banner.jpg" alt="musica argonautas">
                 </div>
-                <div class="col-md-6 py-4">
+                <div class="col-md-6 py-5">
                     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/65Pc1uHVu0oDDfNoErHinw?utm_source=generator&theme=0" 
-                    width="100%" height="480" frameBorder="0" allowfullscreen="" 
+                    width="100%" height="420" frameBorder="0" allowfullscreen="" 
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                     </iframe>
                 </div>
@@ -90,8 +94,8 @@
 
     <section class="" id="videos">
         <div class="container-fluid">
-            <div class="row videos">
-                <h2 class="text-center py-5">VIDEOS</h2>
+            <div class="row videos text-center ">
+                <h2 class="py-5">VIDEOS</h2>
             <div class="col-lg-3 col-md-6"><a href=""><img class="" src="img/Bitacora.jpg" alt="bitacora"></a></div>
             <div class="col-lg-3 col-md-6"><a href=""><img class="" src="img/asesiname.jpg" alt="asesiname"></a></div>
             <div class="col-lg-3 col-md-6"><a href=""><img class="" src="img/Bitacora.png" alt=""></a></div>
@@ -115,6 +119,46 @@
             </div>
         </div>
     </section>
+
+    <!--carrusel -->
+
+ 
+    <section class="carrusel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="10000">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="10000">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </section>
+
 
     <!--redes-->
 
@@ -140,6 +184,7 @@
 
 
 
+
     <footer>
         <div class="container">
             <div class="row pie text-center">
@@ -152,5 +197,11 @@
             </div>
         </div>
     </footer>
+
+<!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous">
+    </script>
 </body>
 </html>
