@@ -153,6 +153,15 @@ h2{
     
 }
 
+.gal{
+    border-radius: 10px;
+}
+
+#spoty-gal{
+    text-align: center;
+    padding-top: 25px;
+}
+
 .redes{
     justify-content:center;
     padding-bottom: 150px;
