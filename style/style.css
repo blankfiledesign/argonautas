@@ -197,6 +197,33 @@ h2{
     padding-top: 25px;
 }
 
+/*integrantes*/ 
+
+.banda{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banda a{
+    text-decoration: none;
+    color:#1ed760;
+
+}
+
+.banda a:hover{
+    color:#fa586a;
+    transform: scale(1.15);
+}
+
+.banda i:hover{
+   transform: scale(1.5);
+}
+/*redes links*/
+
 .redes{
     justify-content:center;
     padding-bottom: 150px;
@@ -216,7 +243,6 @@ h2{
     padding: 15px 50px 15px 50px;
 }
 .seguinos h3{
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 
