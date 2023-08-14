@@ -220,18 +220,24 @@ h2{
 }
 
 .banda a{
+    display: inline-block;
     text-decoration: none;
     color:#1ed760;
+    transition: all 0.5s;
 
 }
 
 .banda a:hover{
     color:#fa586a;
-    transform: scale(1.15);
+    transform: scale(0.95);
+}
+
+.banda i{
+    transition: all 0.6s;
 }
 
 .banda i:hover{
-   transform: scale(1.5);
+   transform: scale(1.2);
 }
 /*redes links*/
 
@@ -248,6 +254,7 @@ h2{
 
 .redes i{
     padding-top: 50px;
+    transition: all 0.8s;
 }
 
 .redes .text-center{
