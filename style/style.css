@@ -59,10 +59,26 @@ body::-webkit-scrollbar-thumb{
 /*view port*/
 
 header{
-    background-color: rgba(39, 39, 39, 0.979);
+    background-color: rgba(39, 39, 39, 0);
     position: fixed;
     width: 100%;
     z-index: 999;
+    font-size: 1.2em;
+    transition:all 0.2s;
+}
+
+header.header2{
+    background-color: rgba(39, 39, 39, 0.979);
+    font-size: 1em;
+}
+
+header.header2 .logo{
+    width: 6em;
+}
+
+.navbar-nav{
+    
+    border-radius: 20px;
 }
 
 h2{
@@ -72,7 +88,7 @@ h2{
 }
 
 .logo{
-    width: 5em;
+    width: 9em;
     transition: 0.5s;
 }
 
@@ -101,8 +117,8 @@ h2{
 
 .navbar-nav a{
     position: relative;
-    
 }
+
 
 .navbar-nav a::after{
     content: "";
