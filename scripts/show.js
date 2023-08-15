@@ -11,7 +11,7 @@ function showScroll(){
 
         let alturaAnimado = izq[i].offsetTop;
 
-        if( alturaAnimado - 650 < scrollTop){
+        if( alturaAnimado - 800 < scrollTop){
             izq[i].style.opacity = 1;
 
             izq[i].classList.add("mostrarIzquierda")
@@ -34,7 +34,7 @@ function showScrollD(){
 
         let alturaAnimado = der[i].offsetTop;
 
-        if( alturaAnimado - 650 < scrollTop){
+        if( alturaAnimado - 800 < scrollTop){
             der[i].style.opacity = 1;
 
             der[i].classList.add("mostrarDerecha")
@@ -57,7 +57,7 @@ function showScrollL(){
 
         let alturaAnimado = low[i].offsetTop;
 
-        if( alturaAnimado - 650 < scrollTop){
+        if( alturaAnimado - 800 < scrollTop){
             low[i].style.opacity = 1;
 
             low[i].classList.add("mostrarAbajo")
