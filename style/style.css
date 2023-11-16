@@ -197,6 +197,7 @@ h2{
     width: 100%;
     transition: 0.5s;
     margin-bottom: 15px;  
+    border-radius: 12px;
 }
 
 .videos iframe{
@@ -219,15 +220,22 @@ h2{
 /*ultimo estreno*/
 
 .v-yt{
-    max-width: 100%;
+    max-width: 50%;
     
 }
 
 .estrenos {
     text-align: center;
-   /* max-height: 50vh; utilizar medida en media query*/
 }
 
+.estrenos .col-md-12{
+    height: 60vh;
+}
+
+.estrenos iframe{
+    width: 80%;
+    height: 100%;
+}
 
 /*carrusel y spoty*/
 
