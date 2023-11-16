@@ -229,7 +229,7 @@ h2{
 }
 
 .estrenos .col-md-12{
-    height: 60vh;
+    height: 70vh;
 }
 
 .estrenos iframe{
@@ -390,9 +390,7 @@ footer{
         background-repeat: no-repeat;
         height: 50vh;
     }
-    .v-yt{
-        height: 400px;
-    }
+    
     
     .banda .col-lg-2{
         width: 90%;
