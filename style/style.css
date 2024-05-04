@@ -315,8 +315,8 @@ footer a:hover{
 }
 
 .redes i{
-    padding-top: 50px;
-    transition: all 0.5s;
+    font-size: 1.5em !important;
+    transition: all ;
 }
 
 .redes .text-center{
@@ -328,27 +328,27 @@ footer a:hover{
 
 /*hover redes*/ 
 
-.fa-facebook-f:hover{
+.bi-facebook:hover{
     color: #1877f2;
 }
 
-.fa-spotify:hover{
+.bi-spotify:hover{
     color: #1ed760;
 }
 
-.fa-youtube:hover{
+.bi-youtube:hover{
     color: #f00;
 }
 
-.fa-tiktok:hover{
+.bi-tiktok:hover{
     color: rgba(254, 44, 85, 1);
 }
 
-.fa-instagram:hover{
+.bi-instagram:hover{
    color: #d6249f;
 }
 
-.fa-music:hover{
+.bi-music-note-beamed:hover{
     color:#fa586a;
 }
 
