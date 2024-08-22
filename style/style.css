@@ -1,5 +1,5 @@
 :root{
-    --color-secundario: #449c44;
+    --color-secundario: #ad0000;
     --color-texto: rgb(255, 235, 205);
 }
 
@@ -69,6 +69,7 @@ header{
     z-index: 999;
     font-size: 1.2em;
     transition:all 0.2s;
+    
 }
 
 header.header2{
@@ -79,6 +80,7 @@ header.header2{
 header.header2 .logo{
     width: 6em;
 }
+
 
 
 h2{
@@ -139,36 +141,36 @@ h2{
 
 #banner{
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.445)),
-    url(/img/banner-oficial.jpeg);
+    linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.185)),
+    url(/img/1-min.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-    height: 70vh;
+    background-size:contain;
+    background-position:top;
+    height: 100vh;
     justify-content: center;
     align-items:end;
 }
 
 #text img{
     min-width:100%;
-    padding-top: 170px;
+    padding-top: 50vh;
 
     /*animacion*/
     opacity: 0;
     animation-name: aparicion;
-    animation-duration: 1s;
-    animation-delay: 0.3s;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
     animation-fill-mode: forwards;
 }
 
 @keyframes aparicion {
     0%{
       opacity: 0;
-      transform: scale(1.4) translateY(-20px);
+      transform: scale(1.4) translateY(-1500px);
     }
 
     100%{
-      opacity: 0.7;
+      opacity: 1;
       transform: scale(1) translateY(0);
     }
 }
@@ -283,7 +285,7 @@ h2{
 footer a{
     display: inline-block;
     text-decoration: none;
-    color:#1ed760;
+    color:#ad0000;
     transition: all 0.5s;
 
 }
@@ -375,6 +377,18 @@ footer{
         opacity: 0;
     }
 
+    #text img{
+        min-width:100%;
+        padding-top: 50vh;
+    
+        /*animacion*/
+        opacity: 0;
+        animation-name: aparicion;
+        animation-duration: 2s;
+        animation-delay: 0.4s;
+        animation-fill-mode: forwards;
+    }
+
     .nav-link{
         margin-left: 30px;
     }
@@ -391,6 +405,17 @@ footer{
         height: 50vh;
     }
     
+    #text img{
+        min-width:100%;
+        padding-top: 25vh;
+    
+        /*animacion*/
+        opacity: 0;
+        animation-name: aparicion;
+        animation-duration: 2s;
+        animation-delay: 0.4s;
+        animation-fill-mode: forwards;
+    }
     
     .banda .col-lg-2{
         width: 90%;
