@@ -143,19 +143,17 @@ h2{
 #banner{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.185)),
-    url(/img/1-min.jpg);
+    url();
     background-repeat: no-repeat;
     background-size:contain;
     background-position:top;
-    height: 100vh;
+    height: 60vh;
     justify-content: center;
     align-items:end;
 }
 
 #text img{
     min-width:100%;
-    padding-top: 50vh;
-
     /*animacion*/
     opacity: 0;
     animation-name: aparicion;
@@ -189,8 +187,8 @@ h2{
 .spoty img{
 
     min-width: auto;
-    border-radius: 12px;
-    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.322);
+    border-radius: 7px;
+    box-shadow: 5px 0px 60px 0px rgba(34, 23, 23, 0.137);
 }
 
 /*galeria de videos*/ 
@@ -200,7 +198,7 @@ h2{
     width: 100%;
     transition: 0.5s;
     margin-bottom: 15px;  
-    border-radius: 12px;
+    border-radius: 7px;
 }
 
 .videos iframe{
@@ -217,7 +215,7 @@ h2{
 
 .videos img:hover{
     transform: scale(0.9);
-    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.322);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.322);
 }
 
 /*ultimo estreno*/
@@ -240,22 +238,124 @@ h2{
     height: 100%;
 }
 
+/* galeria 2 */
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.329);
+}
+
+.galeria a:hover img{
+    filter: blur(1.5px);
+    transform: rotate(15deg) scale(1.5);
+
+}
+
+.light-box{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    padding: 10px;
+}
+
+.light-box img{
+    max-width: 90vh;
+    max-height: 85vh;
+}
+
+.light-box:target{
+    transform: scale(1);
+}
+
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+
+    .light-box img{
+        max-width: 45vh;
+        max-height: 100vh;
+    }
+}
+
+.next{
+    display: block;
+    background: #ff0000;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+
+}
 /*carrusel y spoty*/
 
 .carrusel h2{
     text-align: center;
     padding: 50px 0px;
+   
 }
 
 
 .gal{
-    border-radius: 10px;
+    border-radius: 7px;
     
 }
 
 #spoty-gal{
     text-align: center;
     padding-top: 25px;
+    
 }
 
 
