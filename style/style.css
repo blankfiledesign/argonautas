@@ -133,7 +133,7 @@ h2{
 
 .navbar-nav a::after{
     content: "";
-    background: var(--color-secundario);
+    background: #ffd900;
     position: absolute;
     left: 0;
     top:80%;
@@ -148,13 +148,11 @@ h2{
 }
 
 #banner{
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.185)),
-    url();
+    background-image: url(/img/cuchillos-banner-2.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position:top;
-    height: 60vh;
+    background-size:cover;
+    background-position:bottom;
+    height: 90vh;
     justify-content: center;
     align-items:end;
 }
@@ -331,6 +329,12 @@ h2{
         max-width: 45vh;
         max-height: 100vh;
     }
+    .galeria a:hover img{
+        filter:none;
+        transform:none;
+    
+    }
+   
 }
 
 .next{
