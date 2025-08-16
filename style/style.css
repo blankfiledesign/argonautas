@@ -271,7 +271,7 @@ h2{
 }
 
 .galeria a:hover img{
-    filter: blur(1.5px);
+    /*filter: blur(1.5px);*/
     transform: rotate(15deg) scale(1.5);
 
 }
